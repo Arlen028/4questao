@@ -4,12 +4,12 @@ public class Principal {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Pessoa jeova = new PessoaFisica("Damião");
+		Pessoa damiao = new PessoaFisica("Damião");
 		Conta c = new Conta(damiao);
 		c.creditar(2000.0);
 		c.debitar(100);
 		
-		Pessoa samuel = new PessoaFisica("Arlindo");
+		Pessoa arlindo = new PessoaFisica("Arlindo");
 		ContaEspecial c2 =
 			new ContaEspecial(arlindo, 200);
 		c2.debitar(500);
